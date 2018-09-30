@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    width: 100Vw;
+    height: 100Vh;
+    
+}
+
+
+
+.topo {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(69, 203, 221);
+}
+.topo div{
+   background-color: rgb(69, 203, 221);
+    border: 0px solid gray;
+    padding: 10px;
+}
+.logo{
+  flex: 1;
+}
+.frase{
+    flex: 6;
+    text-align: center;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    margin: auto;
+    height: 100%;
+}
+.logar{
+flex: 1;
+}
+.cadastro{
+
+flex:1;
+}
+
+.botao1, .botao2 {
+    margin: auto;
+	font-family: "Comic Sans MS";
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#a3a3a3 0%,
+		#3b3b3b 50%,
+		#242424 50%,
+		#000000);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#a3a3a3),
+		color-stop(0.50, #3b3b3b),
+		color-stop(0.50, #242424),
+		to(#000000));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #000000;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,1),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,1),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,1),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	text-shadow:
+		0px -1px 0px rgba(153,078,151,1),
+        0px 1px 0px rgba(255,255,255,0.2);
+     }
+
+     .botao1:hover{
+         cursor: pointer;
+     }
+
+     .botao2:hover{
+        cursor: pointer;
+
+    }
+    .qmsomos{
+        display: flex;
+        
+    }
+
+    .texto {
+        font-family: "comic sans MS";
+        font-size: 20px;
+        margin: auto;
+    }
+   
+    .parceiros { 
+        display: flex;
+        
+
+    }
+
+    .texto2 {
+        font-family: "comic sans MS";
+        flex: 1;
+        font-size: 20px;
+        order: 2;
+        margin: auto;
+    }
+
+    .img2 {
+        flex: 1;
+        order: 1;
+
+    }
+
+    h1{
+        margin: auto;
+        text-align: center;
+        font-family: "Comic Sans MS"
+    }
+
+    .p1{
+        text-align: end;
+    }
+    
+    .p2{
+        text-align: center;
+    }
